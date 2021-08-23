@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SocketIO</string>
+    <string name="hint_enter_a_message">Enter a message</string>
+    <string name="help_to_login">Need to change socket IO node server uri first from SocketManager\n\nOnly limited user available, login with\n(1234/1235/1236/1237)\nThose user data came from REALM database, anytime extends by input extra user from LoginActivity and ready to check\n\nWhen you testing please login from two different devices and login with two different ID and choose them each other to start chat.\n\n..Thanks Kotha..</string>
+    <string name="login_hint">Enter your login id</string>
+    <string name="login_button">Login</string>
+    <string name="select_partner">Click to Select Your Partner</string>
+    <string name="start_chat">Start Chat</string>
+</resources>

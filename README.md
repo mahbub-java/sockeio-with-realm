@@ -1,11 +1,11 @@
 # sockeio-with-realm
 Socket IO implementation With realm database 
 
-Need to change socket IO node server URI first from SocketManager
-
 # Change your uri
+At first you need to change socket IO node server URI from SocketManager
+
 If you test from adb you can use 
-mSocket = IO.socket("http://10.0.2.2:3000") as uri
+mSocket = IO.socket("http://10.0.2.2:3000") as uri.
 
 If you test from real device you will give your node js uri, where node running. If you use local host for node js server. Get your router IP address from ipconfig, it will be like..
 mSocket = IO.socket("http://192.168.1.105:3000") //here 192.168.1.105 is my pc IP.

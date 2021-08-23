@@ -4,7 +4,7 @@ Socket IO implementation With realm database
 # Change your uri
 At first you need to change socket IO node server URI from SocketManager
 
-If you test from avd you can use 
+If you test from AVD(Android Virtual Device) you can use 
 mSocket = IO.socket("http://10.0.2.2:3000") as uri.
 
 If you test from real device you will give your node js uri, where node running. If you use local host for node js server. Get your router IP address from ipconfig, it will be like..
